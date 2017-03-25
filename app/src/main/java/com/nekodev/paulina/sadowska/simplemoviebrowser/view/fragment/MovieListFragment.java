@@ -9,6 +9,10 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.nekodev.paulina.sadowska.simplemoviebrowser.R;
+import com.nekodev.paulina.sadowska.simplemoviebrowser.view.adapter.MovieListAdapter;
+
+import java.util.ArrayList;
+import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -18,7 +22,6 @@ import butterknife.ButterKnife;
  */
 
 public class MovieListFragment extends Fragment {
-    private static final String SAVED_USERS_KEY = "UsersKey";
 
     @BindView(R.id.recycler_movies)
     RecyclerView mMovieList;
@@ -35,5 +38,10 @@ public class MovieListFragment extends Fragment {
     private void setupRecyclerView() {
         mMovieList.setLayoutManager(new LinearLayoutManager(getActivity()));
         mMovieList.setHasFixedSize(true);
+        List<String> movies = new ArrayList<>();
+        movies.add("Movie 1");
+        movies.add("Movie 2");
+        movies.add("Movie 3");
+        mMovieList.setAdapter(new MovieListAdapter(movies));
     }
 }
