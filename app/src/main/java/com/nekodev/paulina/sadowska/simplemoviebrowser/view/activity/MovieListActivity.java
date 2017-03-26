@@ -2,7 +2,6 @@ package com.nekodev.paulina.sadowska.simplemoviebrowser.view.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-
 import com.nekodev.paulina.sadowska.simplemoviebrowser.R;
 import com.nekodev.paulina.sadowska.simplemoviebrowser.view.fragment.MovieListFragment;
 

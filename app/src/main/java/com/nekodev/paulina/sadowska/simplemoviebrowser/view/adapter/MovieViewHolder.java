@@ -11,7 +11,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 
 /**
- * Created by palka on 25.03.2017.
+ * Created by Paulina Sadowska on 25.03.2017.
  */
 
 class MovieViewHolder extends RecyclerView.ViewHolder {
