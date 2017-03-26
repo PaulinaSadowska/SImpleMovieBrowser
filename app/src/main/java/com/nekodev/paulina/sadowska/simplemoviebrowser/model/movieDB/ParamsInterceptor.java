@@ -13,7 +13,7 @@ import okhttp3.Response;
  * Created by Paulina Sadowska on 26.03.2017.
  */
 
-public class AuthorizationParamsInterceptor implements Interceptor {
+public class ParamsInterceptor implements Interceptor {
 
     @Override
     public Response intercept(Interceptor.Chain chain) throws IOException {
@@ -22,6 +22,7 @@ public class AuthorizationParamsInterceptor implements Interceptor {
 
         HttpUrl url = originalHttpUrl.newBuilder()
                 .addQueryParameter("api_key", BuildConfig.API_KEY)
+                .addQueryParameter("language", "en-EN")
                 .build();
 
         Request.Builder requestBuilder = original.newBuilder()

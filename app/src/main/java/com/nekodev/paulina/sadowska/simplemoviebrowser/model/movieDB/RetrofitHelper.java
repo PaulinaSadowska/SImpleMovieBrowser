@@ -14,7 +14,7 @@ public class RetrofitHelper {
 
     private OkHttpClient okHttpClient() {
         return new OkHttpClient.Builder()
-                .addInterceptor(new AuthorizationParamsInterceptor())
+                .addInterceptor(new ParamsInterceptor())
                 .build();
     }
 

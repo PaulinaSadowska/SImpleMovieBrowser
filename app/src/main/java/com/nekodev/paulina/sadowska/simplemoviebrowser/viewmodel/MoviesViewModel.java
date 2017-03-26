@@ -49,8 +49,8 @@ public class MoviesViewModel {
                 .inject(this);
     }
 
-    public void loadMovies() {
-        mMovieApi.getMovies()
+    public void loadMovies(int page) {
+        mMovieApi.getMovies(page)
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribeOn(mSubscribeScheduler)
                 .map(Movies::getMovies)

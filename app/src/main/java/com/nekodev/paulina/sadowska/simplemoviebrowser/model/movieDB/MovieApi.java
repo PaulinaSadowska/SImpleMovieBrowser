@@ -1,6 +1,7 @@
 package com.nekodev.paulina.sadowska.simplemoviebrowser.model.movieDB;
 
 import retrofit2.http.GET;
+import retrofit2.http.Query;
 import rx.Observable;
 
 /**
@@ -11,6 +12,6 @@ public interface MovieApi {
 
     String ENDPOINT = "https://api.themoviedb.org/";
 
-    @GET("3/movie/top_rated?language=pl-PL&page=1")
-    Observable<Movies> getMovies();
+    @GET("3/movie/top_rated")
+    Observable<Movies> getMovies(@Query("page") int pageNumber);
 }

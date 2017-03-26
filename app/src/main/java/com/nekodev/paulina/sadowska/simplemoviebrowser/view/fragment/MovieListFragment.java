@@ -50,7 +50,7 @@ public class MovieListFragment extends Fragment {
     }
 
     private void loadMovies() {
-        mMoviesViewModel.loadMovies();
+        mMoviesViewModel.loadMovies(1);
     }
 
 
