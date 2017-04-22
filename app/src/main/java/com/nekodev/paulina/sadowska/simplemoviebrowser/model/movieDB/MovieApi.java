@@ -1,5 +1,7 @@
 package com.nekodev.paulina.sadowska.simplemoviebrowser.model.movieDB;
 
+import com.nekodev.paulina.sadowska.simplemoviebrowser.model.Movies;
+
 import retrofit2.http.GET;
 import retrofit2.http.Query;
 import rx.Observable;

@@ -1,6 +1,6 @@
 package com.nekodev.paulina.sadowska.simplemoviebrowser.viewmodel;
 
-import com.nekodev.paulina.sadowska.simplemoviebrowser.model.movieDB.Movie;
+import com.nekodev.paulina.sadowska.simplemoviebrowser.model.Movie;
 
 /**
  * Created by Paulina Sadowska on 25.03.2017.

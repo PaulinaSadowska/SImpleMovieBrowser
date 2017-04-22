@@ -5,7 +5,7 @@ import android.content.Context;
 import com.nekodev.paulina.sadowska.simplemoviebrowser.MovieApplication;
 import com.nekodev.paulina.sadowska.simplemoviebrowser.injection.components.DaggerMoviesViewModelComponent;
 import com.nekodev.paulina.sadowska.simplemoviebrowser.model.movieDB.MovieApi;
-import com.nekodev.paulina.sadowska.simplemoviebrowser.model.movieDB.Movies;
+import com.nekodev.paulina.sadowska.simplemoviebrowser.model.Movies;
 
 import java.util.List;
 

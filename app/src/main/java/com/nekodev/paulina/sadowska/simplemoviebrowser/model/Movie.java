@@ -1,4 +1,4 @@
-package com.nekodev.paulina.sadowska.simplemoviebrowser.model.movieDB;
+package com.nekodev.paulina.sadowska.simplemoviebrowser.model;
 
 /**
  * Created by Paulina Sadowska on 25.03.2017.

@@ -1,4 +1,4 @@
-package com.nekodev.paulina.sadowska.simplemoviebrowser.model.movieDB;
+package com.nekodev.paulina.sadowska.simplemoviebrowser.model;
 
 import com.google.gson.annotations.SerializedName;
 
